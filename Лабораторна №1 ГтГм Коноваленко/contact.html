@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Зв'язок</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Топ книг для Front-End і Back-End розробників">
+        <meta name="author" content="Коноваленко Даніїл">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="block__navigation">
+        <header>
+            <h1>Prog-Top</h1>
+            <div class="block_deformable">
+                <a class="object_deformable" href="https://nure.ua/en/" target="_blank"><img style="opacity:0.5;" src="https://nure.ua/wp-content/themes/nure/images/logo.png?v=2.0" alt="NURE "></a>
+            </div>
+        </header>
+            <nav>
+                <div class="block__dropdown">
+                <button class="block__dropdown-button">Меню</button>
+                    <div class="block__menu">
+                        <a href="home.html"><button>Головна</button></a>
+                        <a href="frontend.html"><button>Front-End</button></a>
+                        <a href="backend.html"><button>Back-End</button></a>
+                        <a href="contact.html"><button>Зв'язок</button></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="grid__container">
+            <div class="block__content">
+        <main>
+        <h2 align="center">Зв'язатися зі мною</h1>
+            <p align="center">На цій сторінці ви можете зв'затися зі мною для додаткових запитань або надати свої рекомендації щодо книг або сайту.</p>
+            <div class="block-table_communication">
+                <table border="1px">
+            <tr>
+                <td>
+                    <form class="block-table_form-communication" action="#" method="post">
+                        <div class="block-form_field">
+                            <label for="date">Дата:</label>
+                            <input type="datetime-local" id="date" name="date" required>
+                            <p><sub>Вкажіть дату звернення</sub></p>
+                        </div>
+                        <div class="block-form_field">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <p><sub>Вкажіть Email адресу по якій я зможу з вами зв'язатися</sub></p>
+                        </div>
+                                    
+                        <div class="block-form_field">
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <p><sub>Номер телефону в форматі ххх-ххх-хххх</sub></p>
+                        </div>
+
+                        <div class="block-form_field">
+                            <label for="url">URL:</label>
+                            <input type="url" id="url" name="url" required>
+                            <p><sub>Вкажіть URL адресу (http://...) свої соц. мережі для додаткового зв'язку</sub></p>
+                        </div>
+                        <div class="block-form_field">
+                            <label for="message">Повідомлення:</label>
+                            <textarea id="message" name="message" rows="4" cols="40"></textarea><br>
+                            <input type="submit" value="Відправити">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+        </main>
+        <footer>
+            <p class="block__copyright">Авторські права 2023&copy; Даніїл Коноваленко<br>За доп. інформацією звертатися за телефоном: +380661744459</p>
+        </footer>
+        </div>
+    </div>
+    </body>
+</html>
